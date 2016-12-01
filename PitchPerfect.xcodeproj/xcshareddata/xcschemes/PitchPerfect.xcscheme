@@ -106,6 +106,7 @@
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
+      customArchiveName = "PitchPerfect"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>

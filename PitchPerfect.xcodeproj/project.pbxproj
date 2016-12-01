@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB29C9FE1DF06D290024867A /* playsoundsviewcontroller-audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB29C9FD1DF06D290024867A /* playsoundsviewcontroller-audio.swift */; };
 		BB33A91E1DEF865100727249 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB33A91D1DEF865100727249 /* AppDelegate.swift */; };
 		BB33A9201DEF865100727249 /* RecordSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB33A91F1DEF865100727249 /* RecordSoundViewController.swift */; };
 		BB33A9231DEF865100727249 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB33A9211DEF865100727249 /* Main.storyboard */; };
@@ -16,7 +17,6 @@
 		BB33A9361DEF865100727249 /* PitchPerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB33A9351DEF865100727249 /* PitchPerfectTests.swift */; };
 		BB33A9411DEF865100727249 /* PitchPerfectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB33A9401DEF865100727249 /* PitchPerfectUITests.swift */; };
 		BBB8B2A31DEFADE300527BBB /* PlaySoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB8B2A21DEFADE300527BBB /* PlaySoundViewController.swift */; };
-		BBB8B2A51DEFBA6F00527BBB /* playsoundsviewcontroller-audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB8B2A41DEFBA6F00527BBB /* playsoundsviewcontroller-audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB29C9FD1DF06D290024867A /* playsoundsviewcontroller-audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "playsoundsviewcontroller-audio.swift"; sourceTree = "<group>"; };
 		BB33A91A1DEF865100727249 /* PitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB33A91D1DEF865100727249 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB33A91F1DEF865100727249 /* RecordSoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundViewController.swift; sourceTree = "<group>"; };
@@ -52,7 +53,6 @@
 		BB33A9401DEF865100727249 /* PitchPerfectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchPerfectUITests.swift; sourceTree = "<group>"; };
 		BB33A9421DEF865100727249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBB8B2A21DEFADE300527BBB /* PlaySoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundViewController.swift; sourceTree = "<group>"; };
-		BBB8B2A41DEFBA6F00527BBB /* playsoundsviewcontroller-audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "playsoundsviewcontroller-audio.swift"; path = "../../../../../Desktop/playsoundsviewcontroller-audio.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +111,7 @@
 				BB33A9291DEF865100727249 /* LaunchScreen.storyboard */,
 				BB33A92C1DEF865100727249 /* Info.plist */,
 				BB33A9241DEF865100727249 /* PitchPerfect.xcdatamodeld */,
-				BBB8B2A41DEFBA6F00527BBB /* playsoundsviewcontroller-audio.swift */,
+				BB29C9FD1DF06D290024867A /* playsoundsviewcontroller-audio.swift */,
 			);
 			path = PitchPerfect;
 			sourceTree = "<group>";
@@ -218,7 +218,7 @@
 				};
 			};
 			buildConfigurationList = BB33A9151DEF865100727249 /* Build configuration list for PBXProject "PitchPerfect" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -270,10 +270,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB33A9201DEF865100727249 /* RecordSoundViewController.swift in Sources */,
-				BBB8B2A51DEFBA6F00527BBB /* playsoundsviewcontroller-audio.swift in Sources */,
 				BB33A9261DEF865100727249 /* PitchPerfect.xcdatamodeld in Sources */,
 				BBB8B2A31DEFADE300527BBB /* PlaySoundViewController.swift in Sources */,
 				BB33A91E1DEF865100727249 /* AppDelegate.swift in Sources */,
+				BB29C9FE1DF06D290024867A /* playsoundsviewcontroller-audio.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +346,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -396,6 +397,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -425,8 +427,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 3SZW3Z4QTH;
 				INFOPLIST_FILE = PitchPerfect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Tor.PitchPerfect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -438,8 +442,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 3SZW3Z4QTH;
 				INFOPLIST_FILE = PitchPerfect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Tor.PitchPerfect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
