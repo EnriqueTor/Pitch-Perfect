@@ -103,15 +103,9 @@
 		BB33A91C1DEF865100727249 /* PitchPerfect */ = {
 			isa = PBXGroup;
 			children = (
-				BB33A91D1DEF865100727249 /* AppDelegate.swift */,
-				BB33A91F1DEF865100727249 /* RecordSoundViewController.swift */,
-				BBB8B2A21DEFADE300527BBB /* PlaySoundViewController.swift */,
-				BB33A9211DEF865100727249 /* Main.storyboard */,
-				BB33A9271DEF865100727249 /* Assets.xcassets */,
-				BB33A9291DEF865100727249 /* LaunchScreen.storyboard */,
-				BB33A92C1DEF865100727249 /* Info.plist */,
-				BB33A9241DEF865100727249 /* PitchPerfect.xcdatamodeld */,
-				BB29C9FD1DF06D290024867A /* playsoundsviewcontroller-audio.swift */,
+				BB56D44D1E23118B006F97E1 /* Controller */,
+				BB56D44C1E231184006F97E1 /* View */,
+				BB56D44E1E231197006F97E1 /* Support Files */,
 			);
 			path = PitchPerfect;
 			sourceTree = "<group>";
@@ -132,6 +126,36 @@
 				BB33A9421DEF865100727249 /* Info.plist */,
 			);
 			path = PitchPerfectUITests;
+			sourceTree = "<group>";
+		};
+		BB56D44C1E231184006F97E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BB33A9211DEF865100727249 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BB56D44D1E23118B006F97E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BB29C9FD1DF06D290024867A /* playsoundsviewcontroller-audio.swift */,
+				BB33A91F1DEF865100727249 /* RecordSoundViewController.swift */,
+				BBB8B2A21DEFADE300527BBB /* PlaySoundViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BB56D44E1E231197006F97E1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB33A91D1DEF865100727249 /* AppDelegate.swift */,
+				BB33A9271DEF865100727249 /* Assets.xcassets */,
+				BB33A9291DEF865100727249 /* LaunchScreen.storyboard */,
+				BB33A92C1DEF865100727249 /* Info.plist */,
+				BB33A9241DEF865100727249 /* PitchPerfect.xcdatamodeld */,
+			);
+			name = "Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
