@@ -9,7 +9,7 @@
 import UIKit
 import AVFoundation
 
-class PlaySoundViewController: UIViewController {
+class PlaySoundViewController: UIViewController, UIDocumentInteractionControllerDelegate {
     
     @IBOutlet weak var snailButton: UIButton!
     @IBOutlet weak var chipmunkButton: UIButton!
@@ -18,8 +18,9 @@ class PlaySoundViewController: UIViewController {
     @IBOutlet weak var echoButton: UIButton!
     @IBOutlet weak var reverbButton: UIButton!
     @IBOutlet weak var stopButton: UIButton!
-    
-    var recordedAudioURL:URL! 
+    @IBOutlet weak var shareSound: UIBarButtonItem!
+
+    var recordedAudioURL:URL!
     var audioFile:AVAudioFile!
     var audioEngine:AVAudioEngine!
     var audioPlayerNode: AVAudioPlayerNode!
@@ -65,4 +66,29 @@ class PlaySoundViewController: UIViewController {
         stopAudio()
         
     }
+    
+//    @IBAction func share() {
+//        
+//        var controller = UIDocumentInteractionController()
+//        
+//        controller = UIDocumentInteractionController(URL: selectedAudioUrl!)
+//        
+//        if UIApplication.shared.canOpenURL(NSURL(string:"w‌​hatsapp://app")! as URL) {
+//            
+//            controller = UIDocumentInteractionController(URL: selectedAudioUrl!)
+//            
+//            controller.uti = "net.whatsapp.audio"
+//            
+//            controller.delegate=self
+//            
+//            controller.presentOpenInMenu(from: CGRect.zero, in: self.view, animated: true)
+//            
+//        } else {
+//            print("error")
+//        }
+//        
+//        
+//        
+//    }
+    
 }
